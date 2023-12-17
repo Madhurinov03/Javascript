@@ -1,0 +1,8 @@
+#test {
+    border: solid 2px rgb(91, 57, 57);
+    background-color: coral;
+    color: blue;
+    display: flex;
+    padding: 5px;
+    margin: auto;
+}

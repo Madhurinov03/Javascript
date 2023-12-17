@@ -1,0 +1,26 @@
+.form {
+  color: blue;
+  height: 410px;
+  width: 30%;
+  background-color: #ff57223b;
+  border: #ff5722 solid 2px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 30px;
+  font-size: 18px;
+  margin-top: 100px;
+}
+
+.formHeading {
+  margin-bottom: 30px;
+}
+
+.submitButton {
+  color: white;
+  background: blue;
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+  border: blue solid 2px;
+  font-size: 16px;
+}

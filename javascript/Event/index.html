@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Event</title>
+    <link rel="stylesheet" href="./mystyle.css" />
+  </head>
+  <body class="container">
+    <h1>Button Click Event</h1>
+    <h3 id="headerText">Hello World</h3>
+    <div class="text">
+      <button id="btn1">Change Text</button>
+      <button id="btn2">Erase Text</button>
+      <button id="btn3">Default Text</button>
+    </div>
+    <br />
+    <div>
+      <button id="btn4">Change color</button>
+    </div>
+    <h1 id="main">Javascript <span>Training</span></h1>
+    <div>
+      <button onclick="hello()">click</button>
+      <button ondblclick="hello()">double click</button>
+      <button oncontextmen="hello()">right click</button>
+      <button onmouseenter="hello()">mouse hover</button>
+      <button onmouseout="hello()">mouse out</button>
+      <button onmousedown="hello()">mouse down</button>
+      <button onmouseup="hello()">mouse up</button>
+    </div>
+    <button onkeypress="hello()">key press</button>
+    <button onkeyup="hello()">key up</button>
+
+    <br />
+    <br />
+    <button id="btn-id">Click by Id</button>
+    <button id="btn1-id">Counter</button>
+
+    <!-- External Javascript -->
+    <script src="./event.js"></script>
+  </body>
+</html>

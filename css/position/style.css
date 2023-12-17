@@ -1,0 +1,25 @@
+.head{
+    color: pink;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.static{
+   position:static;
+   border: 1px dotted rgb(47, 234, 255);
+   background:cornsilk;
+   left: 10px; 
+}
+
+.relative{
+    position: relative;
+}
+
+
+
+.fixed{
+    position: fixed;
+    border:1px solid salmon;
+    background-color: papayawhip;
+    left: 50px;
+}

@@ -1,0 +1,10 @@
+#container {
+    background-color: lightpink;
+    color: brown;
+    border: 2px solid red;
+    margin: 10% 20%;
+    padding-left: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 500px;
+}

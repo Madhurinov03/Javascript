@@ -1,0 +1,43 @@
+/* There are six Pseudo Element selectors */
+/* First line */
+h2::first-line {
+    color: blueviolet;
+    background-color: bisque;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+/* first Letter */
+p::first-letter {
+    color: rgb(169, 124, 169);
+    background-color: lightpink;
+    font-size: 25px;
+}
+
+li::selection {
+    color: rgb(10, 105, 137);
+    background-color: lightgoldenrodyellow;
+}
+
+/* Placeholder */
+::placeholder {
+    color: brown;
+    font-size: 13px;
+}
+
+/* 4.Selection */
+p::selection {
+    color: brown;
+}
+
+/* Using before and after we must put content */
+li::before {
+    content: "Hi";
+    color: crimson;
+}
+
+li::after {
+    content: "Thank you for watching.";
+    color: rgb(165, 8, 8);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <form>
+      <label>Name:</label>
+      <input
+        type="text"
+        id="name"
+        onfocus="focusFunction(this)"
+        onblur="blurFunction(this)"
+        oninput="inputFunction(this)"
+      /><br /><br />
+      <label>Course:</label>
+      <input
+        type="text"
+        id="course"
+        onfocus="focusFunction(this)"
+        onblur="blurFunction(this)"
+        oninput="inputFunction(this)"
+      /><br /><br />
+      <label>City:</label>
+      <select
+        onfocus="focusFunction(this)"
+        onblur="blurFunction(this)"
+        oninput="inputFunction(this)"
+      >
+        <option>Ranchi</option>
+        <option>Giridih</option>
+        <option>Hazaribagh</option>
+      </select>
+      <br />
+      <br />
+      <div id="xyz" style="border: 3px solid red"></div>
+    </form>
+    <script src="./event.js"></script>
+  </body>
+</html>
